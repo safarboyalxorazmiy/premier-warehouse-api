@@ -1,0 +1,8 @@
+server:
+  port:
+    7777
+  address:
+    192.168.0.102
+app:
+  url:
+    http://${server.address}:${server.port}
